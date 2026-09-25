@@ -44,7 +44,7 @@ session = None
 _connector = None
 SUCCESS_CODE = asyncio.Queue()
 _start_time = time.monotonic()
-CONCURRENCY = 200
+CONCURRENCY = 3000
 _voucher_sem = None
 
 # ── Proxy settings ────────────────────────────────────────────────────────
